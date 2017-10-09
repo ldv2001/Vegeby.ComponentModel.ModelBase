@@ -14,11 +14,11 @@ namespace Vegeby.ComponentModel
         public void OnPropertyChanged([CallerMemberName] string propertyName = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         public void OnPropertyChanging([CallerMemberName] string propertyName = null) => PropertyChanging?.Invoke(this, new PropertyChangingEventArgs(propertyName));
 
-        public void SetProperty<T>(ref T destination, T value)
+        public void SetProperty<T>(ref T destination, T value, [CallerMemberName] string propertyName = null)
         {
-            if (AdvertiseChanging) OnPropertyChanging();
+            if (AdvertiseChanging) OnPropertyChanging(propertyName);
             destination = value;
-            if (AdvertiseChanged) OnPropertyChanged();
+            if (AdvertiseChanged) OnPropertyChanged(propertyName);
         }
     }
 }

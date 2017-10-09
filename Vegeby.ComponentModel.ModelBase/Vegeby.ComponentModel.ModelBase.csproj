@@ -11,6 +11,7 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>Vegeby.ComponentModel.ModelBase.pfx</AssemblyOriginatorKeyFile>
     <PackageProjectUrl>https://github.com/ldv2001/Vegeby.ComponentModel.ModelBase/</PackageProjectUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
