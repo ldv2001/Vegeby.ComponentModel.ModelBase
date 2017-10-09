@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Vegeby.ComponentModel</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jens Vegeby</Authors>
+    <Company />
+    <Description>Simple baseclass for handling INotifyPropertyChanging and INotifyPropertyChanged.</Description>
+    <Copyright>Jens Vegeby</Copyright>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>Vegeby.ComponentModel.ModelBase.pfx</AssemblyOriginatorKeyFile>
+    <PackageProjectUrl>https://github.com/ldv2001/Vegeby.ComponentModel.ModelBase/</PackageProjectUrl>
+  </PropertyGroup>
+
+</Project>
