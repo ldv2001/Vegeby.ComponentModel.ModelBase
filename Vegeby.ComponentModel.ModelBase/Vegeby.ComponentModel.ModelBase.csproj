@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>Vegeby.ComponentModel</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Jens Vegeby</Authors>
@@ -11,7 +11,9 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>Vegeby.ComponentModel.ModelBase.pfx</AssemblyOriginatorKeyFile>
     <PackageProjectUrl>https://github.com/ldv2001/Vegeby.ComponentModel.ModelBase/</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
 
 </Project>
